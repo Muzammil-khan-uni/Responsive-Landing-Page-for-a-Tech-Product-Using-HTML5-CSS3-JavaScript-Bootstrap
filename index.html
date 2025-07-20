@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowMetrics - Powerful Analytics Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <i class="fas fa-chart-line"></i>
+                    <span>FlowMetrics</span>
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <a href="#features">Features</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#faq">FAQ</a>
+                     <div class="mobile-cta">
+        <button class="btn btn-outline">Sign In</button>
+        <button class="btn btn-primary">Get Started</button>
+    </div>
+                </div>
+                <div class="nav-actions">
+                    <button class="btn btn-outline">Sign In</button>
+                    <button class="btn btn-primary">Get Started</button>
+                    <button id="theme-toggle" class="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Turn Data Into Decisions With FlowMetrics</h1>
+                    <p class="lead">The all-in-one analytics platform that helps you understand your users and grow your business.</p>
+                    <div class="cta-buttons">
+                        <button class="btn btn-primary btn-lg">Start 14-Day Free Trial</button>
+                        <button class="btn btn-outline btn-lg">
+                            <i class="fas fa-play"></i> Watch Demo
+                        </button>
+                    </div>
+                    <div class="trusted-by">
+                        <p>Trusted by innovative companies worldwide</p>
+                        <div class="companies">
+                            <img src="https://cdn.simpleicons.org/stripe/008CDD" alt="Stripe" width="80">
+                            <img src="https://www.vectorlogo.zone/logos/shopify/shopify-ar21.svg" alt="Shopify" width="80">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg" alt="Airbnb" width="80">
+                            <img src="https://cdn.simpleicons.org/dropbox/0061FF" alt="Dropbox" width="80">
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" 
+                         alt="Analytics Dashboard" 
+                         class="dashboard-preview">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Powerful Features Designed for You</h2>
+                    <p>Everything you need to understand your data and make better business decisions</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Real-Time Analytics</h3>
+                        <p>Get instant insights with data that updates in real-time as users interact with your product.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3>Custom Dashboards</h3>
+                        <p>Build personalized dashboards with the metrics that matter most to your business.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>AI-Powered Insights</h3>
+                        <p>Our machine learning algorithms surface trends and opportunities you might miss.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Enterprise Security</h3>
+                        <p>Bank-level encryption and compliance to keep your data safe and secure.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-plug"></i>
+                        </div>
+                        <h3>100+ Integrations</h3>
+                        <p>Connect with all your favorite tools like Slack, Salesforce, and Google Analytics.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3>24/7 Support</h3>
+                        <p>Our team of experts is always available to help you get the most from FlowMetrics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Highlight Section -->
+        <section class="highlight">
+            <div class="container">
+                <div class="highlight-content">
+                    <h2>Advanced Segmentation Made Simple</h2>
+                    <p>Slice and dice your data with our intuitive segmentation tools. Create custom audiences based on behavior, demographics, or any combination of properties.</p>
+                    <ul class="highlight-list">
+                        <li><i class="fas fa-check"></i> Create unlimited custom segments</li>
+                        <li><i class="fas fa-check"></i> Save segments for future use</li>
+                        <li><i class="fas fa-check"></i> Compare segment performance</li>
+                    </ul>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+                <div class="highlight-image">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
+                         alt="Data Segmentation Interface">
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Trusted by Thousands of Businesses</h2>
+                    <p>Don't just take our word for it - hear what our customers have to say</p>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"FlowMetrics has transformed how we understand our customers. We've increased retention by 35% since implementing their insights."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Sarah Johnson">
+                            <div>
+                                <h4>Sarah Johnson</h4>
+                                <p>CEO, TechStart Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"The real-time analytics have been a game changer for our marketing team. We can now optimize campaigns while they're still running."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen">
+                            <div>
+                                <h4>Michael Chen</h4>
+                                <p>CMO, GrowthHack</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="testimonial-text">"Implementation was a breeze and the support team helped us customize the dashboards exactly how we needed them."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emma Rodriguez">
+                            <div>
+                                <h4>Emma Rodriguez</h4>
+                                <p>Product Manager, AppVantage</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2> Pricing Plans</h2>
+                    <p>Choose the plan that fits your needs</p>
+                </div>
+                <div class="pricing-toggle">
+                    <span>Monthly</span>
+                    <label class="switch">
+                        <input type="checkbox" id="billing-toggle">
+                        <span class="slider round"></span>
+                    </label>
+                    <span>Yearly <span class="discount-badge">Save 20%</span></span>
+                </div>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="amount">$8</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p>Perfect for small businesses and startups</p>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Up to 10,000 monthly events</li>
+                            <li><i class="fas fa-check"></i> 3 dashboard templates</li>
+                            <li><i class="fas fa-check"></i> Basic segmentation</li>
+                            <li><i class="fas fa-check"></i> Email support</li>
+                        </ul>
+                        <button class="btn btn-outline">Get Started</button>
+                    </div>
+                    <div class="pricing-card featured">
+                        <div class="popular-badge">Most Popular</div>
+                        <h3>Professional</h3>
+                        <div class="price">
+                            <span class="amount">$18</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p>For growing teams that need more power</p>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Up to 100,000 monthly events</li>
+                            <li><i class="fas fa-check"></i> Unlimited dashboards</li>
+                            <li><i class="fas fa-check"></i> Advanced segmentation</li>
+                            <li><i class="fas fa-check"></i> AI insights</li>
+                            <li><i class="fas fa-check"></i> Priority support</li>
+                        </ul>
+                        <button class="btn btn-primary">Get Started</button>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="amount">$49</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p>For large organizations with complex needs</p>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Unlimited events</li>
+                            <li><i class="fas fa-check"></i> Custom data retention</li>
+                            <li><i class="fas fa-check"></i> Dedicated account manager</li>
+                            <li><i class="fas fa-check"></i> SLA guarantees</li>
+                            <li><i class="fas fa-check"></i> On-premise options</li>
+                        </ul>
+                        <button class="btn btn-outline">Contact Sales</button>
+                    </div>
+                </div>
+                <div class="pricing-footer">
+                    <p>Not sure which plan is right for you? <a href="#">Compare plans</a> or <a href="#">talk to our team</a>.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Find answers to common questions about FlowMetrics</p>
+                </div>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>What data sources does FlowMetrics support?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>FlowMetrics supports all major data sources including web, mobile, CRM, marketing automation, and databases. We offer native integrations with over 100 platforms and an API for custom connections.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>How long does implementation typically take?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Most customers are up and running within a few hours. Our implementation wizard guides you through the process, and for complex setups, our support team is available to help.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Is my data secure with FlowMetrics?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Security is our top priority. We use enterprise-grade encryption, regular security audits, and comply with GDPR, CCPA, and SOC 2 standards. You maintain full ownership of your data.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Can I cancel my subscription anytime?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, you can cancel at any time with no penalty. We'll even help you export your data if you decide to leave.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Do you offer discounts for nonprofits?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, we offer a 50% discount for registered 501(c)(3) nonprofits. Contact our sales team with proof of nonprofit status to get set up.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>What happens if I exceed my event limit?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We'll notify you before you reach your limit and give you options to upgrade or purchase additional event capacity. We never cut off your access without warning.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-footer">
+                    <p>Still have questions? <a href="#">Contact our support team</a> - we're happy to help!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Transform Your Data Strategy?</h2>
+                    <p>Join thousands of businesses using FlowMetrics to drive growth and make data-driven decisions.</p>
+                    <div class="cta-buttons">
+                        <button class="btn btn-primary btn-lg">Start Free Trial</button>
+                        <button class="btn btn-outline btn-lg">Schedule Demo</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo">
+                        <i class="fas fa-chart-line"></i>
+                        <span>FlowMetrics</span>
+                    </a>
+                    <p>Powerful analytics for modern businesses.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Integrations</a></li>
+                        <li><a href="#">Roadmap</a></li>
+                        <li><a href="#">Changelog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Webinars</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 FlowMetrics. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          const themeToggle = document.getElementById('theme-toggle');
+          const currentTheme = localStorage.getItem('theme') || 'light';
+          const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+          const navLinks = document.getElementById('navLinks');
+          
+          document.documentElement.setAttribute('data-theme', currentTheme);
+          updateThemeIcon(currentTheme);
+          
+          themeToggle.addEventListener('click', function() {
+              const currentTheme = document.documentElement.getAttribute('data-theme');
+              const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+              
+              document.documentElement.setAttribute('data-theme', newTheme);
+              localStorage.setItem('theme', newTheme);
+              updateThemeIcon(newTheme);
+          });
+          
+          function updateThemeIcon(theme) {
+              const icon = themeToggle.querySelector('i');
+              icon.className = theme === 'light' ? 'fas fa-moon' : 'fas fa-sun';
+          }
+          
+          mobileMenuBtn.addEventListener('click', function() {
+              navLinks.classList.toggle('active');
+              mobileMenuBtn.classList.toggle('active');
+          });
+          
+          const faqQuestions = document.querySelectorAll('.faq-question');
+          
+          faqQuestions.forEach(question => {
+              question.addEventListener('click', function() {
+                  const answer = this.nextElementSibling;
+                  const isOpen = answer.classList.contains('show');
+                  
+                  document.querySelectorAll('.faq-answer').forEach(ans => {
+                      ans.classList.remove('show');
+                  });
+                  
+                  document.querySelectorAll('.faq-question').forEach(q => {
+                      q.classList.remove('active');
+                  });
+                  
+                  if (!isOpen) {
+                      answer.classList.add('show');
+                      this.classList.add('active');
+                  }
+              });
+          });
+          
+          const billingToggle = document.getElementById('billing-toggle');
+          const monthlyPrices = document.querySelectorAll('.price .amount');
+          const monthlyPeriods = document.querySelectorAll('.price .period');
+          
+          const pricingData = {
+              monthly: {
+                  starter: '$8',
+                  professional: '$18',
+                  enterprise: '$49',
+                  period: '/month'
+              },
+              yearly: {
+                  starter: '$76.8',
+                  professional: '$172.8',
+                  enterprise: '$470.4',
+                  period: '/year'
+              }
+          };
+          
+          billingToggle.addEventListener('change', function() {
+              const isYearly = this.checked;
+              const prices = isYearly ? pricingData.yearly : pricingData.monthly;
+              
+              monthlyPrices.forEach((price, index) => {
+                  if (index === 0) price.textContent = prices.starter;
+                  if (index === 1) price.textContent = prices.professional;
+                  if (index === 2) price.textContent = prices.enterprise;
+              });
+              
+              monthlyPeriods.forEach(period => {
+                  period.textContent = prices.period;
+              });
+          });
+          
+          document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+              anchor.addEventListener('click', function(e) {
+                  e.preventDefault();
+                  
+                  const targetId = this.getAttribute('href');
+                  if (targetId === '#') return;
+                  
+                  const targetElement = document.querySelector(targetId);
+                  if (targetElement) {
+                      navLinks.classList.remove('active');
+                      mobileMenuBtn.classList.remove('active');
+                      
+                      window.scrollTo({
+                          top: targetElement.offsetTop - 80,
+                          behavior: 'smooth'
+                      });
+                  }
+              });
+          });
+          
+          function animateOnScroll() {
+              const elements = document.querySelectorAll('.feature-card, .testimonial-card, .pricing-card');
+              
+              elements.forEach(element => {
+                  const elementPosition = element.getBoundingClientRect().top;
+                  const screenPosition = window.innerHeight / 1.3;
+                  
+                  if (elementPosition < screenPosition) {
+                      element.style.opacity = '1';
+                      element.style.transform = 'translateY(0)';
+                  }
+              });
+          }
+          
+          document.querySelectorAll('.feature-card, .testimonial-card, .pricing-card').forEach(element => {
+              element.style.opacity = '0';
+              element.style.transform = 'translateY(20px)';
+              element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+          });
+          
+          animateOnScroll();
+          
+          window.addEventListener('scroll', animateOnScroll);
+          
+          document.addEventListener('click', function(e) {
+              if (!e.target.closest('.nav-links') && !e.target.closest('.mobile-menu-btn')) {
+                  navLinks.classList.remove('active');
+                  mobileMenuBtn.classList.remove('active');
+              }
+          });
+      });
+    </script>
+</body>
+</html>
