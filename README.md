@@ -4,102 +4,101 @@ Check live demo at: https://muzammil-khan-uni.github.io/Responsive-Landing-Page-
 
 FlowMetrics is a fully responsive, modern landing page designed for a fictional SaaS analytics product. The page showcases best practices in UI/UX design, layout structuring, responsive behavior, and user engagement features — suitable for any tech product or marketing campaign. It adapts seamlessly across desktop, tablet, and mobile devices using HTML, CSS, JavaScript, and optional Bootstrap/Tailwind utilities.
 
-🎯 Key Features:
-
+<h2>🎯 Key Features:</h2>
 ✅ Hero Section
 
-Eye-catching heading and subtext introducing the product.
+-Eye-catching heading and subtext introducing the product.
 
-Clear Call-To-Action (CTA) buttons: "Start Free Trial" & "Watch Demo".
+-Clear Call-To-Action (CTA) buttons: "Start Free Trial" & "Watch Demo".
 
-Visual support using high-quality imagery and client logos to build trust.
+- support using high-quality imagery and client logos to build trust.
 
 ✅ Features Section
 
-Grid layout of six feature cards.
+-Grid layout of six feature cards.
 
-Each feature is represented with a Font Awesome icon, heading, and description.
+-Each feature is represented with a Font Awesome icon, heading, and description.
 
-Focused on product strengths like AI Insights, Real-Time Analytics, Integrations, and Security.
+-Focused on product strengths like AI Insights, Real-Time Analytics, Integrations, and Security.
 
 ✅ Highlight Section
 
-Visual + textual split section emphasizing advanced segmentation.
+-Visual + textual split section emphasizing advanced segmentation.
 
-Includes feature checklist with interactive CTA.
+-Includes feature checklist with interactive CTA.
 
 ✅ Testimonials
 
-Real-user feedback shown through cards with ratings, quotes, and avatars.
+-Real-user feedback shown through cards with ratings, quotes, and avatars.
 
-Enhances social proof and builds product credibility.
+-Enhances social proof and builds product credibility.
 
 ✅ Pricing Plans
 
-Monthly/Yearly toggle using JavaScript.
+-Monthly/Yearly toggle using JavaScript.
 
-3-tier pricing: Starter, Professional (featured), and Enterprise.
+-3-tier pricing: Starter, Professional (featured), and Enterprise.
 
-Each card includes a detailed breakdown of features and pricing.
+-Each card includes a detailed breakdown of features and pricing.
 
 ✅ FAQ Section
 
-Accordion-style interactive Q&A component.
+-Accordion-style interactive Q&A component.
 
-Collapsible answers for better UX and mobile readability.
+-Collapsible answers for better UX and mobile readability.
 
 ✅ Final CTA
 
-Encouraging users to convert with a final bold message and buttons.
+-Encouraging users to convert with a final bold message and buttons.
 
 ✅ Footer
 
-Multi-column responsive footer with links to product, company, and social channels.
+-Multi-column responsive footer with links to product, company, and social channels.
 
-Clean design with color contrast suitable for both themes.
+-Clean design with color contrast suitable for both themes.
 
-🌗 Bonus Feature: Theme Toggle (Light/Dark Mode)
+<h2>🌗 Bonus Feature: Theme Toggle (Light/Dark Mode)</h2>
 
-Implemented using JavaScript and data-theme attributes.
+-Implemented using JavaScript and data-theme attributes.
 
-Automatically stores user preference in localStorage.
+-Automatically stores user preference in localStorage.
 
-Dynamically updates colors, icons, and background.
+-Dynamically updates colors, icons, and background.
 
-📱 Responsive Design
+<h2>📱 Responsive Design</h2>
 
-Built using Flexbox, CSS Grid, and media queries.
+-Built using Flexbox, CSS Grid, and media queries.
 
-Mobile-first approach with specific breakpoints for 992px, 768px, 576px, and 480px.
+-Mobile-first approach with specific breakpoints for 992px, 768px, 576px, and 480px.
 
-Mobile navbar with animated toggle button.
+-Mobile navbar with animated toggle button.
 
-🛠️ Tech Stack Used:
+<h2>🛠️ Tech Stack Used:</h2>
 
-HTML5
+-HTML5
 
-CSS3 (Custom + Variables)
+-CSS3 (Custom + Variables)
 
-JavaScript (Vanilla)
+-JavaScript (Vanilla)
 
-Font Awesome (Icons)
+-Font Awesome (Icons)
 
-Bootstrap (Grid support - optional CDN)
+-Bootstrap (Grid support - optional CDN)
 
-Unsplash & SimpleIcons (Images/Logos)
+-Unsplash & SimpleIcons (Images/Logos)
 
-📚 Skills Demonstrated:
+<h2>📚 Skills Demonstrated:</h2>
 
-Responsive Web Design
+-Responsive Web Design
 
-Clean UI/UX Layout
+-Clean UI/UX Layout
 
-Theme Management with JS
+-Theme Management with JS
 
-Interactive Elements (FAQ Accordion, Pricing Toggle)
+-Interactive Elements (FAQ Accordion, Pricing Toggle)
 
-Web Accessibility & Performance
+-Web Accessibility & Performance
 
-Semantic HTML Structuring
+-Semantic HTML Structuring
 
-Modular CSS Styling with Variables
+-Modular CSS Styling with Variables
